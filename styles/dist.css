@@ -520,10 +520,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-cursive{
-  font-family: var(--font-bebas-neue), cursive;
-}
-
 .font-serif{
   font-family: var(--font-open-sans), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-title{
+  font-size: 5rem;
+  line-height: 0.875em;
+  letter-spacing: 0.06em;
 }
