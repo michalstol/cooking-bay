@@ -3,7 +3,11 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     fontFamily: {
       sans: [...defaultTheme.fontFamily.sans],
@@ -26,6 +30,18 @@ module.exports = {
           letterSpacing: "0.06em",
         },
       ],
+    },
+    container: {
+      center: true,
+      padding: "1.25rem",
+    },
+  },
+  extends: {
+    padding: {
+      "6px": "0.3125rem",
+    },
+    boxShadow: {
+      "solid-2": "inset 0px 0px 0px 2px",
     },
   },
   plugins: [],
