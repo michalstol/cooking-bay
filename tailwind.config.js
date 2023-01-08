@@ -30,6 +30,13 @@ module.exports = {
           letterSpacing: "0.06em",
         },
       ],
+      "page-title": [
+        "6rem",
+        {
+          lineHeight: "0.875em",
+          letterSpacing: "0.06em",
+        },
+      ],
     },
     container: {
       center: true,

@@ -11,7 +11,9 @@ export default function RootLayout({
         <title>Cooking Bay</title>
       </head>
 
-      <body className="font-serif">{children}</body>
+      <body className="font-serif overflow-hidden text-black dark:bg-black dark:text-white">
+        {children}
+      </body>
     </html>
   );
 }

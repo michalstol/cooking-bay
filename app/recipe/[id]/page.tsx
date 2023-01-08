@@ -11,7 +11,7 @@ export default function RecipePage() {
         {Array(5)
           .fill(null)
           .map((_, index) => (
-            <li className="flex-none">
+            <li key={index} className="flex-none">
               <Pill>Sweet Home</Pill>
             </li>
           ))}
